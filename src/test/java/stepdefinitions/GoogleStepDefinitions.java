@@ -44,4 +44,13 @@ public class GoogleStepDefinitions {
     public void verify_page_title_contains_teapot() {
        Assert.assertTrue(Driver.getDriver().getTitle().contains("TeaPot"));
     }
+    @When("user search for {string} on google") // this is for @parametrizing1 which give us String
+    public void user_search_for_on_google(String string) {
+
+    }
+
+
+
+
+
 }

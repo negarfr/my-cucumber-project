@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",//PATH OF FEATURES FOLDER
         glue = "stepdefinitions", //PATH OF STEP DEFINITIONS
         dryRun = false ,
-        tags = "@google_search"
+        tags = "@parametrizing1"
 )
 public class Runner {
 
