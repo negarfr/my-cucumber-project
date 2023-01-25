@@ -6,10 +6,19 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class) // this annotation will run our class
 @CucumberOptions(
+
+        plugin = {
+                "pretty",
+                "html:target/default-cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"
+        },
+
+        monochrome = false,
         features = "./src/test/resources/features",//PATH OF FEATURES FOLDER
         glue = "stepdefinitions", //PATH OF STEP DEFINITIONS
         dryRun = false ,
-        tags = "@parametrizing1"
+        tags = "@data_tables"
 )
 public class Runner {
 
