@@ -17,8 +17,8 @@ import org.junit.runner.RunWith;
         monochrome = false,
         features = "./src/test/resources/features",//PATH OF FEATURES FOLDER
         glue = "stepdefinitions", //PATH OF STEP DEFINITIONS
-        dryRun = false ,
-        tags = "@data_tables"
+        dryRun = false,
+        tags = "@blue_rental_cars"
 )
 public class Runner {
 
