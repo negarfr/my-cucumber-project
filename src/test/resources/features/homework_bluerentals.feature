@@ -3,7 +3,7 @@ Feature:blue_rental_cars
 
   Scenario Outline: US167854_manager_login_test
 
-    Given user goes  on "https://www.bluerentalcars.com/"
+    Given user goes  on "https://www.bluerentalcars.com/" page
     Then user navigates to the login page
     And enters username into "<username>"
     And enters password into "<password>"
