@@ -8,3 +8,5 @@ Feature: data_tables
       | jack@gmail.com | 12345    |
     Then verify the application login is successful
     And close the application
+
+
