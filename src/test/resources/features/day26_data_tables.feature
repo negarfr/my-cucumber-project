@@ -1,4 +1,4 @@
-@data_tables_1
+@failed_tests
 Feature: data_tables
 
   Scenario: customer_login
