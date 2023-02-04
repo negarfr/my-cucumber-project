@@ -14,14 +14,12 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt",
 
         },
-        monochrome=false,
+        monochrome=true,
         features = "./src/test/resources/features/jdbc",
-        glue = {"stepdefinitions", ""},
+        glue = {"stepdefinitions"},
         dryRun = false,
         tags = "@db_read"
 )
-
-
 
 public class DBRunner {
 

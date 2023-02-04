@@ -173,7 +173,7 @@ public class DBUtils {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        return rowList;
+        return rowList;  // will retrun list of objects
     }
     /**
      * @return returns query result in a list of maps where the list represents
