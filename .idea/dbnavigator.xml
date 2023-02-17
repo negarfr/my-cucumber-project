@@ -29,6 +29,9 @@
     <filter-actions connection-id="86ae8c0c-c970-42fd-b6eb-da4dfed14f55" dataset="pg_catalog.pg_depend" active-filter-id="" />
     <filter-actions connection-id="86ae8c0c-c970-42fd-b6eb-da4dfed14f55" dataset="information_schema.sql_features" active-filter-id="" />
   </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
@@ -601,5 +604,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>

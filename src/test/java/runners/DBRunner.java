@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt",
 
         },
-        monochrome=true,
+        monochrome=false,
         features = "./src/test/resources/features/jdbc",
         glue = {"stepdefinitions"},
         dryRun = false,

@@ -1,12 +1,11 @@
 @failed_tests
-Feature: data_tables
-
-  Scenario: customer_login
-    Given user is on "https://www.bluerentalcars.com/login"  page
+Feature: hooks_test
+  Scenario: TC_01_test
+    Given user is on "https://www.bluerentalcars.com/login" page
     And user enters customer_email and customer_password
       | username       | password |
       | jack@gmail.com | 12345    |
-    Then verify the application login is successful
-    And close the application
+    Then verify the next page url contains login keyword
+
 
 
