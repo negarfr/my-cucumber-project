@@ -49,8 +49,9 @@ public class DatabaseStepDefinitions {
 
         int counter = 4;
         while (DBUtils.getResultset().next()){//becasue of adding "next() method" here continues to go to the next row until there is no more row exist
-            Object currenObject = DBUtils.getResultset().getObject(column);
-            System.out.println("Row "+counter+" data : "+currenObject);
+
+            Object currentObject = DBUtils.getResultset().getObject(column);
+            System.out.println("Row "+counter+" data : "+currentObject);
             counter++;
         }
         System.out.println("Row Count : "+counter);

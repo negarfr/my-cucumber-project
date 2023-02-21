@@ -18,10 +18,10 @@ Feature: db_customer_testing
 
 
 #PRINT THE EMAILS OF TEH CUSTOMERS
-  Scenario: TC03_read_customer_firstname_info
+  Scenario: TC03_read_customer_email_info
 #    Select * from jhi_user
     And user gets the column "*" from table "tp_customer"
-#    read all of the login names of the customer
+#    read all of the emails of the customer
     Then user reads all the column "email" data
 
 #    PRINT THE ACCOUNT TYPES OF THE CUSTOMERS FROM ACCOUNT TABLE
